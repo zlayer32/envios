@@ -6,9 +6,10 @@ gem 'rails', '4.2.0'
 gem 'mysql2'
 gem 'tzinfo-data'
 gem "jquery-rails"
+gem 'rspec-core', '2.0.0.beta.18'
 
 group :development do
-	gem 'rspec-rails'
+	gem 'rspec-rails', '<3.0.0'
 end
 
 group :test do 
